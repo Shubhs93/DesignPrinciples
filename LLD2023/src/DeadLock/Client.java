@@ -32,6 +32,7 @@ public class Client {
 
         t1.start();
         t2.start();
+        System.out.println("gjhebwje");
     }
 
 

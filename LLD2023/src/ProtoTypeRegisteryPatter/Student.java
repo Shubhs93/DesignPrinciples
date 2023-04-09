@@ -15,6 +15,18 @@ public class Student {
         this.avgPsp=student.avgPsp;
         this.YOE=student.YOE;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", BathName='" + BathName + '\'' +
+                ", avgPsp=" + avgPsp +
+                ", YOE=" + YOE +
+                '}';
+    }
+
     public Student clone(){
         return new Student(this);
 
