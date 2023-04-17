@@ -1,4 +1,4 @@
-package MultiThread;
+package MultiThread.Thread1;
 
 public class MultiThread implements Runnable{
     @Override
